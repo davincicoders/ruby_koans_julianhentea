@@ -28,7 +28,7 @@ class AboutIteration < Neo::Koan
   end
 
   def test_iterating_with_each
-    array = [1, 2, 3]
+    array = [1, 2, 3, 4]
     sum = 0
     array.each do |item|
       sum += item
