@@ -69,7 +69,7 @@ class AboutBlocks < Neo::Koan
 
   def test_blocks_can_be_assigned_to_variables_and_called_explicitly
     add_one = lambda { |n| n + 1 }
-    assert_equal __, add_one.call(10)
+    assert_equal __, add_one.call(100)
 
     # Alternative calling sequence
     assert_equal __, add_one[10]
