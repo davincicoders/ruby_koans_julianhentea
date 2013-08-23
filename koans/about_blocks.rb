@@ -35,6 +35,7 @@ class AboutBlocks < Neo::Koan
     yield(:butter)
     yield(:and)
     yield(:jelly)
+    yield(:time)
   end
 
   def test_methods_can_call_yield_many_times
